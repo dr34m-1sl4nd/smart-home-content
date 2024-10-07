@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Garamond, serif;
+    background-color: #3F3841;
+    color: white;
+}
+
+/* Nav Bar Stuff */
+nav {
+    display: flex;
+    background-color: #4E2A69;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+}
+
+nav > a {
+    text-decoration: none;
+    transition-duration: 300ms;
+    transition-property: color;
+    transition-timing-function: ease;
+}
+
+nav > a:hover {
+    color: #A88BBE;
+}
+
+.header-footer {
+    display: flex;
+}
+
+.amenity-list {
+    width: 80vw;
+    background-color: #785393;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
