@@ -61,19 +61,21 @@ nav > a:hover {
 }
 
 /* Container holding the image and the text */
-  .top-left {
+.top-left {
     position: absolute;
     top: 8px;
     left: 16px;
     font-size: 60px;
   }
 
- .bottom-left {
+.bottom-left {
     position: absolute;
     bottom: 8px;
     left: 16px;
     font-size: 25px;
   }
+
+
 
 /* Text BG */
 .catalogue {
@@ -93,13 +95,6 @@ nav > a:hover {
 /* house tour */
 * {
     box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: Garamond, serif;
-    background-color: #3F3841;
-    color: white;
 }
 
 /* Nav Bar Stuff */
@@ -133,22 +128,24 @@ section > a:hover {
 }
 
 .amenity-list {
-    width: 50vw;
+    width: 40vw;
     background-color: #785393;
     border-radius: 15px;
-    margin: 2rem auto;
-    padding: 2rem;
+    margin: 3rem auto;
+    padding: 3rem;
+    font-size: x-large;
 }
 
 
 /* tour stuff */
 
 .room-desc {
-    width: 45vw;
+    width: 25vw;
     background-color: #785393;
     border-radius: 15px;
     margin: 1rem auto;
-    padding: 1rem; 
+    padding: 1rem;
+    font-size: x-large;
 }
 
 .room-image {
@@ -157,6 +154,7 @@ section > a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
+    border-radius: 30px;
 }
 .tour-list > a {
     display: flex;
