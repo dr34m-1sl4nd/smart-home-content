@@ -66,7 +66,22 @@ nav > a:hover {
 }
 
 .col.one-fourth {
-    width: calc(100% / 4)
+    width: calc(100% / 4.1);
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    background-color: #785393;
+}
+
+.card-img {
+    min-height: 320px;
+    max-height: 320px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-text {
+    font-size: 30px;
 }
 
 /* Image Overlay */
@@ -129,7 +144,7 @@ nav > a:hover {
 /* Text BG */
 .catalogue {
     width: 100%;
-    height: 5vw;
+    height: 6vw;
     background-color: #4E2A69;
     margin-top: 0;
     padding: 2rem;
@@ -189,17 +204,18 @@ section > a:hover {
 /* tour stuff */
 
 .room-desc {
-    width: 25vw;
+    width: 36vw;
     background-color: #785393;
-    border-radius: 15px;
+    border-radius: 20px;
     margin: 2rem auto;
-    padding: 2rem;
-    font-size: x-large;
+    margin-left: 21rem;
+    padding: 3rem;
+    font-size: 40px;
 }
 
 .room-image {
-    display: block;
-    width: 40%;
+    display: flex;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
@@ -207,12 +223,29 @@ section > a:hover {
 }
 .tour-list > a {
     display: flex;
-    font-size: 2rem;
+    font-size: 3rem;
     flex-direction: column;
     text-align: center;
-    width: 12rem;
+    width: 15rem;
     padding: 1rem;
     margin: 2rem;
     background-color: #785393;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.consult {
+    background-color: #785393;
+    border-radius: 20px;
+    padding: 3rem;
+    font-size: 40px;
+}
+
+/* oopsie */
+.oops {
+    width: 36vw;
+    background-color: #785393;
+    border-radius: 20px;
+    margin: 2rem auto;
+    padding: 3rem;
+    font-size: 40px;
 }
