@@ -14,7 +14,6 @@ body {
 /* Nav Bar Stuff */
 nav {
     color: white;
-    flex-flow: column nowrap;
     padding: 2rem;
     width: 100%;
     font-size: 50px;
@@ -48,14 +47,14 @@ nav > a:hover {
 .header-footer {
     display: flex;
     background-color: #4E2A69;
+    min-height: 207px;
+    max-height: 207px;
 }
 
 /* cards */
 
 .col {
     display: flex;
-    padding: 1rem;
-    border-radius: 15px;
 }
 
 .row {
@@ -66,22 +65,41 @@ nav > a:hover {
 }
 
 .col.one-fourth {
-    width: calc(100% / 4.1);
+    width: calc(100% / 4.2);
     display: flex;
     flex-flow: column nowrap;
     text-align: center;
-    background-color: #785393;
+    background-color: #4E2A69;
+    border-radius: 15px;
 }
 
 .card-img {
     min-height: 320px;
     max-height: 320px;
-    width: 100%;
+    width: 90%;
+    margin: 5%;
     border-radius: 15px;
 }
 
 .card-text {
-    font-size: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.visit {
+    background-color: #785393;
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 35%;
+    width: 10rem;
+    border-radius: 15px;
+}
+
+.teenypic {
+    width: 280px;
+    border-radius: 15px;
+    min-height: 220px;
+    max-height: 220px;
 }
 
 /* Image Overlay */
@@ -157,9 +175,6 @@ nav > a:hover {
 }
 
 /* house tour */
-* {
-    box-sizing: border-box;
-}
 
 /* Nav Bar Stuff */
 
@@ -182,24 +197,28 @@ section > a:hover {
     color: #A88BBE;
 }
 
-.header-footer {
-    display: flex;
-    justify-content: center;
-    background-color: #4E2A69;
-    color: white;
-    padding: 1rem;
-    width: 100%;
-}
-
 .amenity-list {
-    width: 40vw;
+    width: 50vw;
     background-color: #785393;
-    border-radius: 15px;
-    margin: 3rem auto;
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
     padding: 3rem;
     font-size: x-large;
 }
 
+.feature-list {
+    width: 33rem;
+}
+
+.thelockthatihate {
+    width: 340px;
+    height: 300px;
+    margin-top: 4rem;
+    margin-left: 1.4rem;
+    border-radius: 15px;
+}
 
 /* tour stuff */
 
@@ -211,6 +230,7 @@ section > a:hover {
     margin-left: 21rem;
     padding: 3rem;
     font-size: 40px;
+    line-height: 4rem;
 }
 
 .room-image {
@@ -233,6 +253,16 @@ section > a:hover {
     border-radius: 10px;
 }
 
+.other-houses {
+    background-color: #785393;
+    padding: 2rem;
+    width: 35%;
+    border-radius: 20px;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    height: 45.6rem;
+}
+
 .consult {
     background-color: #785393;
     border-radius: 20px;
@@ -245,7 +275,66 @@ section > a:hover {
     width: 36vw;
     background-color: #785393;
     border-radius: 20px;
-    margin: 2rem auto;
+    margin: 4rem auto;
     padding: 3rem;
     font-size: 40px;
+}
+
+/* products page */
+
+.productimg {
+    width: 40%;
+    border-radius: 15px;
+    margin: 3rem;
+}
+
+.productlist {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #785393;
+    width: 43rem;
+    padding: 3rem;
+    font-size: 30px;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.product-desc {
+    width: 45rem;
+    margin-right: 5rem;
+    font-size: 40px;
+}
+
+.product-title {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.bigtext {
+    font-size: 40px;
+    width: 200px;
+    margin-right: 4rem;
+}
+
+.buybutton {
+    background-color: #785393;
+    padding: 2rem;
+    width: 12rem;
+    margin-top: 1rem;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.bottompic {
+    margin-top: 3rem;
+}
+
+.toppic {
+    margin-top: 2rem;
+}
+
+.giant-text {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-size: 60px;
 }
