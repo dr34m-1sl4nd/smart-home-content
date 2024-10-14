@@ -28,6 +28,11 @@ nav > h1 {
     justify-content: center;
 }
 
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 nav > section {
     display: flex;
     justify-content: space-evenly;
@@ -109,6 +114,10 @@ nav > a:hover {
     text-align: center;
     color: white;
     margin: 0;
+    width: 100%;
+}
+
+.hero-container > img {
     width: 100%;
 }
 
@@ -275,7 +284,7 @@ section > a:hover {
     width: 36vw;
     background-color: #785393;
     border-radius: 20px;
-    margin: 4rem auto;
+    margin: 7.65rem auto;
     padding: 3rem;
     font-size: 40px;
 }
@@ -321,12 +330,13 @@ section > a:hover {
     padding: 2rem;
     width: 12rem;
     margin-top: 1rem;
+    text-align: center;
     border-radius: 15px;
     font-size: 30px;
 }
 
 .bottompic {
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .toppic {
@@ -337,4 +347,8 @@ section > a:hover {
     margin-top: 2rem;
     margin-left: 5rem;
     font-size: 60px;
+}
+
+.other-houses > h1 {
+    font-size: 40px;
 }
